@@ -1,0 +1,30 @@
+section.gen{
+    width: fit-content;
+    padding: 5px;
+    margin: 0px auto;
+    box-shadow: inset 0px 0px 10px 5px black;
+    border: 15px groove gold;
+}
+section div {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+div>button{
+    width: 45px;
+    height: 45px;
+    border: none;
+    box-shadow: inset 0px 0px 5px black;
+}
+button.redspot{
+    background: red;
+}
+button.blackspot{
+    background: black
+}
+button.whitespot{
+    background: white
+}
+button:hover{
+    cursor: pointer;
+}
